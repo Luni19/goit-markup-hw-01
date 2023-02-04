@@ -1,14 +1,14 @@
 :root{
-    --color-white: #FFFFFF;
-    --color-black: #2E2F42;
-    --color-violet:#4D5AE5;
+    --color-secondary: #FFFFFF;
+    --color-main: #2E2F42;
+    --color-reserve:#4D5AE5;
 }
 body{
     font-family: "roboto";
     width: 400;
 }
 .word-web{
-    color: var(--color-black);
+    color: var(--color-reserve);
     font-family: "Raleway";
     font-weight: 800;
     line-height:1.33 ;  
@@ -21,7 +21,7 @@ body{
     line-height: 1.5;
     list-style-type: none;
     text-decoration: none;
-    color: var(--color-black); 
+    color: var(--color-main); 
 }
 .word-studio{
     font-family: "Raleway";
@@ -29,7 +29,7 @@ body{
     font-weight: 800;
     line-height:1.33 ;
     text-decoration: none;
-    color: var(--color-black);
+    color: var(--color-main);
 }
 .contacts{
     text-decoration: none;
@@ -39,10 +39,10 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-black)
+    color: var(--color-main)
 }
 .main-section{
-    background-color: var(--color-violet)
+    background-color: var(--color-main)
     
 }
 h1{
@@ -51,7 +51,7 @@ h1{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: var(--color-white);
+    color: var(--color-secondary);
 }
 button{
     font-family: 'Roboto';
@@ -59,10 +59,12 @@ button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background-color: var(--color-violet);
-    color: var(--color-white);
+    background-color: var(--color-reserve);
+    color: var(--color-secondary);
     border-radius: 4px;
+    cursor: pointer;
 }
+
 h3{
     font-family: 'Roboto';
     font-style: normal;
@@ -86,5 +88,25 @@ p{
     list-style-type: none;  
 }
 .our-names{
-    background-color: #F4F4FD;  
+    background-color: #F4F4FD;
+}
+.photo-list{
+    list-style-type: none;
+}
+footer{
+    background-color: var(--color-main);
+}
+.footer-text{
+    color:var(--color-secondary);
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.word-studio-footer{
+    color: var(--color-secondary);
+    text-decoration: none;
 }
